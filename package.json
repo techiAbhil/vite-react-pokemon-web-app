@@ -4,9 +4,12 @@
 	"version": "0.0.0",
 	"type": "module",
 	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d dist",
 		"start": "vite",
 		"build": "tsc && vite build",
-		"preview": "vite preview"
+		"preview": "vite preview",
+		"homepage": "https://github.com/techiAbhil/vite-react-pokemon-web-app"
 	},
 	"dependencies": {
 		"@reduxjs/toolkit": "^1.8.3",
@@ -20,6 +23,7 @@
 		"@types/react": "^18.0.15",
 		"@types/react-dom": "^18.0.6",
 		"@vitejs/plugin-react": "^2.0.0",
+		"gh-pages": "^4.0.0",
 		"typescript": "^4.6.4",
 		"vite": "^3.0.0"
 	}

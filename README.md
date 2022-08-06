@@ -13,9 +13,17 @@
 
 ## Scripts
 
+### `npm install`
+
+Install dependecies locally.
+
 ### `npm start`
 
 Runs the app locally.
+
+### `npm run build`
+
+Creates a local build files in ./dist directory which will be used for deployment.
 
 ## External Libraries Used
 
@@ -24,3 +32,4 @@ Runs the app locally.
 | Redux toolkit       | https://github.com/reduxjs/redux-toolkit  |
 | react-redux         | https://github.com/reduxjs/react-redux    |
 | react-router-dom v6 | https://github.com/remix-run/react-router |
+| gh-pages            | https://github.com/gitname/react-gh-pages |
